@@ -11,5 +11,4 @@ function mouse(name, food, friend, color){
         alert('Tom and Jerry is my favorite TV show!')
     }
 
-
 }
