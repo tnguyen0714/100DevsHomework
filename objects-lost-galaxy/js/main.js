@@ -1,14 +1,16 @@
-//Create a mouse object that has four properties and three methods
-function mouse(name, food, friend, color){
-    character.nameOfAnimal = name
-    character.favoriteFood = food
-    character.bestFriend = friend
-    character.favoriteColor = color
-    character.fear = function(){
-        alert('This is a trap!')
-    }
-    character.tv = function(){
-        alert('Tom and Jerry is my favorite TV show!')
-    }
+//Create a dog object that has four properties and three methods
+let dog = {}
 
-}
+   dog.color = 'brown'
+   dog.breed = 'husky'
+   dog.legs = 4
+   dog.name = 'baymax'
+   dog.bark = function(){
+    console.log = ('bark bark bark')
+   }
+   dog.fetch = function(){
+    console.log('ZOOM')
+   }
+   dog.jump = function(){
+    console.log('JUMP')
+   }
